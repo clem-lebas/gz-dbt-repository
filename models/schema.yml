@@ -1,15 +1,15 @@
 version: 2
 
 sources:
-  - name: gz_raw_data
+  - name: raw
     database: gz_raw_data
     schema: gz_raw_data
     tables:
-      - name: raw_gz_sales
+      - name: sales
         identifier: raw_gz_sales
-      - name: raw_gz_product
+      - name: product
         identifier: raw_gz_product
-      - name: raw_gz_ship
+      - name: ship
         identifier: raw_gz_ship
     loader: bigquery
     description: "Sources in BigQuery"
