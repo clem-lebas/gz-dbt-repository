@@ -11,7 +11,7 @@ renamed as (
     select
         date_date,
         orders_id,
-        pdt_id,
+        pdt_id AS products_id,
         revenue,
         quantity
 
@@ -20,8 +20,3 @@ renamed as (
 )
 
 select * from renamed
-
-SELECT
-        pdt_id AS products_id
-FROM
-        'sales'

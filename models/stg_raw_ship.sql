@@ -9,7 +9,7 @@ source as (
 renamed as (
 
     select
-        orders_ids_id,
+        orders_id,
         shipping_fee,
         logCost,
         ship_cost,
